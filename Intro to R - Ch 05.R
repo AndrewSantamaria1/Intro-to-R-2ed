@@ -244,11 +244,12 @@ View(theDF)
 # Using names
 theDF$x
 theDF$x[3]
+sum(y)/10 
+
 
 # Editing names
 names(theDF)<-c("Popularity", "Team Strength", "Sport")
 View(theDF)
-
 # Summary of referencing data frame elements
 theDF[2:3]
 theDF[c(1,3)]
@@ -261,3 +262,5 @@ theDF$"Team Strength"
 # Clean Up 
 rm(list=ls(all=TRUE))
 cat("\014") 
+
+
